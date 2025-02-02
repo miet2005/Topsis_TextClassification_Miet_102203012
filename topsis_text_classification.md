@@ -40,9 +40,11 @@ The following bar chart illustrates the TOPSIS ranking:
 ![TOPSIS Ranking](topsis_ranking1.png)
 
 ## Conclusion
-- **RoBERTa** achieved the highest rank due to its strong accuracy and F1-score, despite higher inference time.
-- **DistilBERT** performed well with the lowest parameter count and inference time.
-- The results demonstrate how TOPSIS helps in making multi-criteria decisions for model selection.
+- **DistilBERT** ranked #1 (TOPSIS score: 0.937) by offering the best balance of small size (66M parameters) and fast speed (90ms) while maintaining good accuracy (0.90).
+- **RoBERTa** ranked last despite highest accuracy (0.93) due to being the slowest (140ms) and largest model (125M parameters).
+- **ALBERT** achieved second place by balancing moderate parameter count (95M) with good inference speed (100ms).
+
+The TOPSIS analysis shows that balanced performance across metrics (speed, size, accuracy) is more valuable than excelling in just one area, with DistilBERT emerging as the optimal choice for practical text classification tasks.
 
 ## References
 - Hwang, C. L., & Yoon, K. (1981). Multiple Attribute Decision Making. Springer.
