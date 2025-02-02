@@ -29,11 +29,11 @@ After applying the TOPSIS method, the models were ranked as follows:
 
 | Model       | TOPSIS Score | Rank |
 |------------|-------------|------|
-| RoBERTa    | 0.78        | 1    |
-| BERT       | 0.72        | 2    |
-| DistilBERT | 0.69        | 3    |
-| XLNet      | 0.65        | 4    |
-| ALBERT     | 0.60        | 5    |
+| RoBERTa    | 0.12        | 5    |
+| BERT       | 0.32        | 4    |
+| DistilBERT | 0.94        | 1    |
+| XLNet      | 0.33        | 3    |
+| ALBERT     | 0.59        | 2    |
 
 ## Visualization
 The following bar chart illustrates the TOPSIS ranking:
